@@ -10,7 +10,7 @@ model = dict(
 # Category labels: background – 1, building – 2, road – 3, water – 4, barren – 5,forest – 6, agriculture – 7.
 # And the no-data regions were assigned 0 which should be ignored.
 dataset_type = 'FloodNetDataset'
-data_root = '../CorrCLIP-master1/data/FlodNet'
+data_root = '../data/FlodNet'
 
 test_pipeline = [
     dict(type='LoadImageFromFile'),
