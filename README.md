@@ -1,7 +1,7 @@
 # From Decoupled Heads to Self-Correcting Inference: SCOPE for Training-Free Open-Vocabulary Segmentation
 
 <p align="center">
-  <img width="1555" height="923" alt="image" src="https://github.com/user-attachments/assets/62414619-ec5f-4418-93ce-a479a8bd2f0c" />
+  <img width="1559" height="933" alt="image" src="https://github.com/user-attachments/assets/99818f70-df38-4960-bc5e-7214b8566b88" />
 </p>
 
 
