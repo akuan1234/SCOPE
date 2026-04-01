@@ -8,7 +8,7 @@ model = dict(
 
 # dataset settings
 dataset_type = 'COCOStuffDataset'
-data_root = '../CorrCLIP-master1/data/coco_stuff164k'
+data_root = '../data/coco_stuff164k'
 
 test_pipeline = [
     dict(type='LoadImageFromFile'),
