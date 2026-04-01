@@ -8,7 +8,7 @@ model = dict(
 
 # dataset settings
 dataset_type = 'PascalVOC20Dataset'
-data_root = '../CorrCLIP-master1/data/VOCdevkit/VOC2012'
+data_root = '../data/VOCdevkit/VOC2012'
 
 test_pipeline = [
     dict(type='LoadImageFromFile'),
