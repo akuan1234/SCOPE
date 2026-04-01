@@ -1,12 +1,9 @@
-# SCOPE: From Decoupled Heads to Self-Correcting Inference for Training-Free Open-Vocabulary Segmentation
+# From Decoupled Heads to Self-Correcting Inference: SCOPE for Training-Free Open-Vocabulary Segmentation
 
 <p align="center">
-  <img src="assets/teaser_placeholder.png" width="100%" alt="SCOPE teaser figure" />
+  <img width="1612" height="964" alt="image" src="https://github.com/user-attachments/assets/267c259b-5d64-47a9-a030-8b586123a8c9" />
 </p>
 
-<p align="center">
-  <em>Placeholder teaser. Replace this image with the final overview / qualitative figure from the paper.</em>
-</p>
 
 ## Overview
 
@@ -49,12 +46,9 @@ Benchmarks: **VOC21, VOC20, PC60, PC59, Object, Stuff, ADE, City**.
 ## Method Overview
 
 <p align="center">
-  <img src="assets/framework_placeholder.png" width="100%" alt="SCOPE framework" />
+  <img width="2222" height="1135" alt="image" src="https://github.com/user-attachments/assets/637cc47f-6888-455d-a0b7-18aff0d4b6e4" />
 </p>
 
-<p align="center">
-  <em>Placeholder framework figure. Replace this image with the final method diagram.</em>
-</p>
 
 For each text query, SCOPE first performs standard SAM3 prompt inference to obtain:
 
@@ -166,12 +160,9 @@ python eval.py --config configs/cfg_city_scapes.py
 ## Qualitative Results
 
 <p align="center">
-  <img src="assets/qualitative_placeholder.png" width="100%" alt="SCOPE qualitative comparison" />
+  <img width="1674" height="1063" alt="image" src="https://github.com/user-attachments/assets/32b090a1-249b-49a9-8825-fb2066874f48" />
 </p>
 
-<p align="center">
-  <em>Placeholder qualitative figure. Replace this image with the final comparison figure.</em>
-</p>
 
 Compared with prior training-free baselines, SCOPE typically produces:
 
@@ -211,25 +202,3 @@ If your repository contains additional scripts for visualization, ablations, or 
 - SCOPE is designed to preserve the native SAM3 pipeline while reorganizing its inference structure.
 - If you are adapting the code for new datasets, the main points to check are the config file, dataset path, and class-name file.
 
----
-
-## Citation
-
-If you find this repository useful, please cite the paper.
-
-```bibtex
-@article{scope,
-  title   = {From Decoupled Heads to Self-Correcting Inference: SCOPE for Training-Free Open-Vocabulary Segmentation},
-  author  = {Anonymous},
-  journal = {arXiv preprint arXiv:XXXX.XXXXX},
-  year    = {2026}
-}
-```
-
-> Replace the citation above with the final public metadata once the paper or preprint is released.
-
----
-
-## Acknowledgments
-
-This project builds on top of the open-source ecosystems around **SAM3**, **MMSegmentation**, **MMCV**, and **MMEngine**. We sincerely thank the authors and maintainers of these projects.
