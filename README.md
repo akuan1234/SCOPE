@@ -1,7 +1,7 @@
 # From Decoupled Heads to Self-Correcting Inference: SCOPE for Training-Free Open-Vocabulary Segmentation
 
 <p align="center">
-  <img width="1612" height="964" alt="image" src="https://github.com/user-attachments/assets/267c259b-5d64-47a9-a030-8b586123a8c9" />
+  <img width="1555" height="923" alt="image" src="https://github.com/user-attachments/assets/62414619-ec5f-4418-93ce-a479a8bd2f0c" />
 </p>
 
 
@@ -69,7 +69,7 @@ These decoupled outputs are then processed as follows:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/akuan1234/SCOPE.git
+git clone https://github.com/Anonymous.git
 cd SCOPE
 ```
 
